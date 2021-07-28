@@ -1,7 +1,4 @@
-# Project 6 Deep Learning : A Cat or Dog?
-
-# Project Proposal
-
+# Project 6 Deep Learning : Cat vs Dog Image Classification 
 
 ## Question
 
@@ -50,4 +47,4 @@ Dog
 
 ## MVP Goal:
 
-✨Take a subset and run baseline model for Random Forest and a single layer of Sequential kears model✨
+✨Take a subset and run baseline model for Random Forest and a single layer of Sequential keras model✨
