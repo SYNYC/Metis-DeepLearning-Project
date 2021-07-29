@@ -27,11 +27,10 @@ The idea of this project is to use a deep learning algorithm to classify whether
 -  Photo images examples:
 
 
-Cat
-<img src="https://github.com/SYNYC/4_Project_Loan_Repayment/blob/main/charts/LoanDictionary.png">
+	1. Cat <img src="https://github.com/SYNYC/6_Project_Cat_vs_Dog_ImageClassification/blob/main/images/cat.11100.jpg">
+  
+	2. Dog <img src="https://github.com/SYNYC/6_Project_Cat_vs_Dog_ImageClassification/blob/main/images/dog.1506.jpg">
 
-Dog
-<img src="https://github.com/SYNYC/4_Project_Loan_Repayment/blob/main/charts/LoanDictionary.png">
 
 
 
