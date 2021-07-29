@@ -17,6 +17,13 @@ The idea of this project is to use a deep learning algorithm to classify whether
 
 -  Resource: downloaded from [Kaggle.com](https://www.kaggle.com/c/dogs-vs-cats/data)
 
+-  Data details:
+	1. Train & Test pre-split: From downloaded file, it's already split into 2 seperate folders named as Test and Train.
+
+	2. Size: 
+	- Test folder contains 12500 images with mixed of cats and dogs but without label; 
+	- Train folder contains 10000 images with cat label and another 10000 images with dog label. It's also a class balanced dataset. 
+ 
 -  Photo images examples:
 
 
@@ -26,7 +33,7 @@ Cat
 Dog
 <img src="https://github.com/SYNYC/4_Project_Loan_Repayment/blob/main/charts/LoanDictionary.png">
 
-- it's a class balanced dataset
+
 
 
 ## Tools
@@ -37,7 +44,8 @@ Dog
 	* from imagenet_utils import preprocess_input, decode_predictions
 
 3. sklearn
-    * from sklearn import preprocessing, model_selection, train_test_split
+    * from sklearn import preprocessing, model_selection
+    
 4. validation tools
 
 
