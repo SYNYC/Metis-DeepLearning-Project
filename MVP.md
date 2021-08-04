@@ -12,7 +12,9 @@
 
 - rescale the images size to 150 x 150
 
-- distribution of the target variable
+- distribution of the target variable: Cats has slightly more images data, but in general it has no huge class imbalance issue.
+
+<img src="https://github.com/SYNYC/6_Project_ImageClassification/blob/main/charts/class_dist.png">
 
 ### 2. Non-DL model 
 
@@ -53,8 +55,8 @@ My baseline model was using categorical CNN model and the accuracy on train set 
 
 #### Confusion Matrix
 
-
-<img src="https://github.com/SYNYC/6_Project_ImageClassification/blob/main/charts/.png">
+Here shows it wrongly predicted 45 samples in val dataset of 1500 samples
+<img src="https://github.com/SYNYC/6_Project_ImageClassification/blob/main/charts/basemodel_2_cm.png">
 
 
 
