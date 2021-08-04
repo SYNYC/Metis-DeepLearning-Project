@@ -63,5 +63,5 @@ My baseline model was using categorical CNN model and the accuracy on train set 
  - Transfer Learning (VGG16)
  - Image augmentation (increase training samples by rotating and horizontal flipping images)
 
-2. make steamlit app (if I have enough time)
+2. apply model on steamlit app (if I have enough time)
 
