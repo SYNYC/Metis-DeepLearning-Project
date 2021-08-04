@@ -1,4 +1,4 @@
-# MVP
+# MVP - Animal Faces 🐈vs🐕vs🐯
 
 
 ### 1. EDA
