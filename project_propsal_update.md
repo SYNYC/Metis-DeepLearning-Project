@@ -1,9 +1,7 @@
-# Project 6 Deep Learning : Animal Faces
-
-# Project Proposal
+# Project Proposal - Deep Learning : Animal Faces
 
 
-## Question/need
+### Question/need
 
 
 The idea of this project is to use a deep learning algorithm to idenitfy the images is a cat, dog or wildlife.
@@ -20,10 +18,10 @@ It could be beneficial for the pet shops, animal shelters or zoos to identify th
 
 
 
-## Data
+### Data
 
 
-### Cat & Dog & Wildlife
+##### Cat & Dog & Wildlife
 
 -  Resource: downloaded from [Kaggle.com](hhttps://www.kaggle.com/andrewmvd/animal-faces)
 
@@ -32,7 +30,7 @@ It could be beneficial for the pet shops, animal shelters or zoos to identify th
 - In each folders, images are labeled with the animals types in its types folders
 
 
-## Tools
+### Tools
 0. load images data & create directory
    * import pathlib
    * from glob import glob
@@ -52,6 +50,6 @@ It could be beneficial for the pet shops, animal shelters or zoos to identify th
 
 
 
-## MVP Goal:
+### MVP Goal:
 
 ✨Take a subset and run baseline model for Random Forest and a baseline Deep Learning model✨
