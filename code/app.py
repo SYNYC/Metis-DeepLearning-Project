@@ -21,7 +21,7 @@ from skimage.transform import resize
 
 
 # Load the model
-model = load_model('/Users/sabrina/Metis/Projects/6_Project_DeepLearning/code/animal_face_NNtran.h5')
+model = load_model('animal_face_NNtran.h5')
 # Load the cascade
 # face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
@@ -31,13 +31,13 @@ model = load_model('/Users/sabrina/Metis/Projects/6_Project_DeepLearning/code/an
 ################
 
 # Loading Cat moew sound
-audio_file_0 = open('/Users/sabrina/Metis/Projects/6_Project_DeepLearning/sounds/Cat-moew.mp3', 'rb')
+audio_file_0 = open('Cat-moew.mp3', 'rb')
 audio_bytes_0 = audio_file_0.read()
 
-audio_file_1 = open('/Users/sabrina/Metis/Projects/6_Project_DeepLearning/sounds/Dog-bark.mp3', 'rb')
+audio_file_1 = open('Dog-bark.mp3', 'rb')
 audio_bytes_1 = audio_file_1.read()
 
-audio_file_2 = open('/Users/sabrina/Metis/Projects/6_Project_DeepLearning/sounds/Tiger-roar.mp3', 'rb')
+audio_file_2 = open('Tiger-roar.mp3', 'rb')
 audio_bytes_2 = audio_file_2.read()
 
 ################
@@ -46,7 +46,7 @@ audio_bytes_2 = audio_file_2.read()
 
 # Designing the interface
 
-image = Image.open('/Users/sabrina/Metis/Projects/6_Project_DeepLearning/ppt/afhq.jpg')
+image = Image.open('afhq.jpg')
 
 
 col1, col2, col3= st.beta_columns([80,2,8])
@@ -105,9 +105,7 @@ if uploaded_file is not None:
     u_img = Image.open(uploaded_file)
     #st.success("Success")
     st.image(u_img, 'Uploaded Image', use_column_width=True)
-    #show.image(u_img, 'Uploaded Image', use_column_width=True)
-    #st.image(image, use_column_width=True)
-
+ 
     prediction = import_and_predict(u_img, model)
 
     if np.argmax(prediction) == 0:
