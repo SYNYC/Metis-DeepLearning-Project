@@ -3,18 +3,23 @@
 ### Question/need
 
 
-The idea of this project is to use a deep learning algorithm to idenitfy the images is a cat, dog or wildlife.
+The idea of this project is to use a deep learning algorithm to identify the images is a cat, dog or wildlife.
 
 
- This images classification will be catergorical in 3 classes : 
+ This images classification will be categorical in 3 classes : 
  1. Cat 
  2. Dog 
  3. Wildlife (ex: tiger, lion)
 
 
 Use cases:
-It could be beneficial for the pet shops, animal shelters or zoos to identify the object by only images instead of human eye judgement. This model can also potentially help to the full self-driving car system to identify the cats, dogs or other animals by camera taking photo images to avoid the animal runover accidents on the road. 
+1. to identify the object by only images instead of human eye judgement
+- pet shops
+- animal shelters 
+- zoos
 
+2. to help full self-driving car system to identify the cats, dogs or other animals by camera taking photo images 
+to avoid the animal run-over accidents on the road
 
 
 ### Data
