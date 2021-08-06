@@ -46,7 +46,7 @@ using _keras.preprocessing_ & _ImageDataGenerator_
 
 
 **3. Workflow**
-<img src="https://github.com/SYNYC/4_Project_Loan_Repayment/blob/main/charts/new/xgb5/score_0.589.png" width = "450" height = "300" >
+<img src="https://github.com/SYNYC/6_Project_ImageClassification/blob/main/charts/workflow.png" >
 
 
 
@@ -69,7 +69,7 @@ using _keras.preprocessing_ & _ImageDataGenerator_
 ### 1. Final model
 
 ##### a. Train/Val accuracy score vs Epochs
-<img src="https://github.com/SYNYC/4_Project_Loan_Repayment/blob/main/charts/new/xgb5/score_0.589.png" width = "450" height = "300" >
+<img src="https://github.com/SYNYC/6_Project_ImageClassification/blob/main/charts/accuracy_loss.png" >
 
 ##### b. Classification report
 accuracy 0.9933
@@ -87,12 +87,22 @@ accuracy 0.9933
 weighted avg       0.99      0.99      0.99      1500
 
 ##### c. Confusion Matrix
-<img src="https://github.com/SYNYC/4_Project_Loan_Repayment/blob/main/charts/new/xgb5/score_0.589.png" width = "450" height = "300" >
+got 17 wrong predictions out of 1500 samples in Validation dataset
+<img src="https://github.com/SYNYC/6_Project_ImageClassification/blob/main/charts/cm.png" width = "450" height = "300" >
 
-get 17 wrong predictions out of 1500 samples in Validiation set
+
 
 
 ### 2. Web app 
+- enable to upload image to test model predictions
+- included animal sounds effect
+- included Probability Chart of predicting images between cat, dog and wildlife
 
+**EXAMPLE 1**
+<img src="https://github.com/SYNYC/6_Project_ImageClassification/blob/main/charts/app_cat.png" >
 
-<img src="https://github.com/SYNYC/4_Project_Loan_Repayment/blob/main/charts/new/xgb5/score_0.589.png" width = "450" height = "300" >
+**EXAMPLE 2**
+<img src="https://github.com/SYNYC/6_Project_ImageClassification/blob/main/charts/app_dog_.png" >
+
+**EXAMPLE 3**
+<img src="https://github.com/SYNYC/6_Project_ImageClassification/blob/main/charts/app_wild.png" >
