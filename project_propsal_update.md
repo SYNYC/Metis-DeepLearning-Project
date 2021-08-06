@@ -1,4 +1,4 @@
-# Project Proposal - Deep Learning : Animal Faces 🐈vs🐕vs🐯
+# Project Proposal - Deep Learning : Animal Faces 🐱 vs 🐶 vs 🐯
 
 ### Question/need
 
