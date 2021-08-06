@@ -13,10 +13,10 @@ The goal of this project is to use deep learning to do image classification on a
 ## Design
 Neural Network can take in an input image, and assign importance (learnable weights and biases) to various aspects/objects in the image, and be able to differentiate one from the other. I'll build and train my model by taking the following steps:
 
-- Baseline
-- Convolutional Neural Net
-- Transfer Learning
-- Image Augmentation
+1. Baseline
+2. Convolutional Neural Net
+3. Transfer Learning
+4. Image Augmentation
 
 
 ## Data
@@ -35,17 +35,17 @@ Wildlife (ex: tiger, lion, cheetah, fox)
 
 ## Methodology
 
-*Data Directories Setup*
+**1. Data Directories Setup**
 
 setup folders with notebook by using _os.path_ and _glob_ to get data from path folders
 
 
-*Images Preprocessing*
+**2. Images Preprocessing**
 
 using _keras.preprocessing_ & _ImageDataGenerator_
 
 
-*Workflow*
+**3. Workflow**
 <img src="https://github.com/SYNYC/4_Project_Loan_Repayment/blob/main/charts/new/xgb5/score_0.589.png" width = "450" height = "300" >
 
 
@@ -66,12 +66,12 @@ using _keras.preprocessing_ & _ImageDataGenerator_
 
 ## Findings
 
-### Final model
+### 1. Final model
 
-##### 0. Train/Val accuracy score vs Epochs
+##### a. Train/Val accuracy score vs Epochs
 <img src="https://github.com/SYNYC/4_Project_Loan_Repayment/blob/main/charts/new/xgb5/score_0.589.png" width = "450" height = "300" >
 
-##### 1. Classification report
+##### b. Classification report
 accuracy 0.9933
 
 
@@ -86,13 +86,13 @@ accuracy 0.9933
    macro avg       0.99      0.99      0.99      1500
 weighted avg       0.99      0.99      0.99      1500
 
-##### 2. Confusion Matrix
+##### c. Confusion Matrix
 <img src="https://github.com/SYNYC/4_Project_Loan_Repayment/blob/main/charts/new/xgb5/score_0.589.png" width = "450" height = "300" >
 
 get 17 wrong predictions out of 1500 samples in Validiation set
 
 
-### web app
+### 2. Web app 
 
 
 <img src="https://github.com/SYNYC/4_Project_Loan_Repayment/blob/main/charts/new/xgb5/score_0.589.png" width = "450" height = "300" >
